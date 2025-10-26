@@ -40,6 +40,7 @@ class Student {
     }
 }
 
-// This program demonstrates classes and objects in Java.
-// It creates Student objects, stores them in an array, and uses looping and branching
-// to evaluate and display their performance based on grades.
+// This program demonstrates fundamental Object-Oriented Programming (OOP) concepts in Java.
+// - Class & Object: The `Student` class is a blueprint for creating objects, each with its own `name` and `grade`.
+// - Looping: A `for-each` loop iterates through the `students` array, processing each `Student` object.
+// - Branching: An `if-else-if` ladder checks the grade of each student to determine and print their performance level.

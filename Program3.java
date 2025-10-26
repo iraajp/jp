@@ -52,5 +52,5 @@ class Person {
 }
 
 // This program demonstrates constructor overloading in Java.
-// It shows how a class can have multiple constructors with different parameters,
-// allowing objects to be initialized in various ways.
+// - Constructor Overloading: The `Person` class has multiple constructors, each with a different set of parameters.
+// - Object Initialization: This allows `Person` objects to be created with varying levels of detail, from a default state to fully specified.

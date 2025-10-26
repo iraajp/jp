@@ -72,6 +72,8 @@ class Duck extends Animal implements Flyable, Swimmable {
     }
 }
 
-// This program demonstrates various types of inheritance in Java.
-// It shows single, multilevel, hierarchical inheritance, and multiple inheritance using interfaces,
-// illustrating how classes can inherit properties and behaviors from parent classes or interfaces.
+// This program demonstrates various types of inheritance in Java, a core OOP principle for code reuse.
+// - Single Inheritance: `Dog` extends `Animal`, inheriting its `eat` method.
+// - Multilevel Inheritance: `BabyDog` extends `Dog`, which extends `Animal`, creating a chain of inheritance.
+// - Hierarchical Inheritance: Both `Dog` and `Cat` extend `Animal`, forming a hierarchy.
+// - Multiple Inheritance (via Interfaces): `Duck` extends `Animal` and implements `Flyable` and `Swimmable`, combining behaviors from multiple sources.

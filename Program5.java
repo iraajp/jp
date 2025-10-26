@@ -43,13 +43,13 @@ public class Program5 {
     }
 }
 
-// Custom Exception
 class InvalidAgeException extends Exception {
     public InvalidAgeException(String message) {
         super(message);
     }
 }
 
-// This program demonstrates exception handling in Java.
-// It shows try-catch-finally blocks, handling specific exceptions, and creating custom exceptions,
-// illustrating how to manage runtime errors gracefully.
+// This program demonstrates exception handling in Java for robust error management.
+// - Try-Catch-Finally: The `try` block contains code that might throw an exception, `catch` blocks handle specific exceptions, and `finally` ensures code runs regardless of an exception.
+// - Custom Exception: `InvalidAgeException` is a user-defined exception class that extends `Exception`.
+// - Throw/Throws: The `throw` keyword is used to manually trigger an exception, and `throws` declares that a method might throw a particular exception.

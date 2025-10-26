@@ -23,6 +23,6 @@ class Calculator {
     }
 }
 
-// This program demonstrates method overloading in Java.
-// It defines multiple add methods with the same name but different parameter types and counts,
-// allowing flexible addition operations.
+// This program demonstrates method overloading, a form of compile-time polymorphism in Java.
+// - Method Overloading: The `Calculator` class has multiple `add` methods with the same name but different signatures (number or type of parameters).
+// - Polymorphism: The correct `add` method is chosen at compile time based on the arguments passed, allowing a single method name to perform different operations.
